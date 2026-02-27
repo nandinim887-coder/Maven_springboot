@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
       - name: mycontainer
-        image: rashmidevops1/ci-pipeline   # replace with your Docker-image pushed on Dockerhub
+        image: nandini88847/springboot-app:latest   # replace with your Docker-image pushed on Dockerhub
         ports:
         - containerPort: 8080
+
 
